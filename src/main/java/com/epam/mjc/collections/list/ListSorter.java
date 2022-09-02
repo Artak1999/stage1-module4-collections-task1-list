@@ -5,7 +5,6 @@ import java.util.List;
 
 public class ListSorter {
     public void sort(List<String> sourceList) {
-        ListComparator listComparator= new ListComparator();
         for (int i = 0; i < sourceList.size(); i++) {
             for (int j = 0; j < sourceList.size(); j++) {
                 if(Math.abs(Integer.parseInt(sourceList.get(i))) < Math.abs(Integer.parseInt(sourceList.get(j)))) {
